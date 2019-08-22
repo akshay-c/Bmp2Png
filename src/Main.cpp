@@ -6,6 +6,7 @@ int main(int argc, char** argv)
 	::QApplication app(argc, argv);
 
 	MainWindow *Mw = new MainWindow();
+	Mw->show();
 	return app.exec();
 
 }
