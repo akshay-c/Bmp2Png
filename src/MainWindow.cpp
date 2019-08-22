@@ -95,8 +95,6 @@ void MainWindow::createWidgets()
     QObject::connect(StopBtn, SIGNAL(clicked()), this, SLOT(StopClicked()));
 
     setCentralWidget(centralWidget);
-    this->showMaximized();
-    this->show();
 }
 
 void MainWindow::SourceClicked()
